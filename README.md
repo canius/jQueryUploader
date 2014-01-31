@@ -1,13 +1,25 @@
 jQueryUploader
 ==============
 
-This is a jquery plugin for upload images or videos.
+This is a jquery plugin that upload images and videos.
 
 Dependencies:
-jquery.form.js
-jquery.colorbox.js http://www.jacklmoore.com/colorbox/
+<ul>
+<li>jquery.form.js</li>
+<li>jquery.colorbox.js (http://www.jacklmoore.com/colorbox/)</li>
+</ul>
 
 Usage:
+```html
+    <div>
+        <span class="uploader"></span>
+        <span class="uploader"></span>
+        <span class="uploader"></span>
+        <span class="uploader"></span>
+    </div>
+```
+
+```js
     $(function () {
         $('.uploader').uploader({
             url: 'upload.ashx',
@@ -17,3 +29,4 @@ Usage:
             rel: 'rel'
         });
     });
+```
