@@ -4,12 +4,12 @@ jQueryUploader
 This is a jquery plugin that upload images and videos.
 
 Dependencies:
-<ul>
-<li>jquery.form.js</li>
-<li>jquery.colorbox.js (http://www.jacklmoore.com/colorbox/)</li>
-</ul>
 
-Usage:
+* jquery.form.js</li>
+* jquery.colorbox.js (http://www.jacklmoore.com/colorbox/)
+
+
+##Usage:
 ```html
     <div>
         <span class="uploader"></span>
