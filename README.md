@@ -5,7 +5,7 @@ This is a jquery plugin that upload images and videos.
 
 Dependencies:
 
-* jquery.form.js</li>
+* jquery.form.js
 * jquery.colorbox.js (http://www.jacklmoore.com/colorbox/)
 
 
